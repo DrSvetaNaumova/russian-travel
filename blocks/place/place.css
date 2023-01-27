@@ -1,0 +1,52 @@
+.place {
+  margin: 0;
+  max-width: 984px;
+  padding: 80px 148px 0;
+  display: grid;
+  grid-template-columns: repeat(2, auto);
+  grid-template-rows: repeat(2, auto);
+  grid-template-areas:
+  "title website"
+  "image paragraphs";
+  row-gap: 48px;
+  column-gap: 40px;
+}
+
+
+
+
+@media screen and (min-width: 1024px) and (max-width: 1279px){
+  .place {
+    padding: 80px 48px 0;
+    column-gap: 32px;
+  }
+} 
+
+@media screen and (min-width: 768px) and (max-width: 1023px){
+  .place {
+    
+    padding: 73px 0 0;
+    column-gap: 28px;
+    row-gap: 45px;   /* в макете - 48 - не совпал с pixel perfect, изменила на 45  */
+  }
+  .place:first-child {
+    padding-top: 0;
+   }
+}
+
+@media screen and (min-width: 320px) and (max-width: 767px){
+  .place {
+    display: flex;
+    flex-direction: column;
+    gap: 0;
+    padding-top: 50px;
+    padding-bottom: 0;
+    padding-left: 0;
+    padding-right: 0;
+  }
+
+  .place:first-child {
+    padding-top: 0;
+  }
+
+} 

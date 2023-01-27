@@ -1,0 +1,16 @@
+.footer__menu-item {
+  margin: 0;
+  padding: 0;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 18px;   
+}
+
+@media screen and (min-width: 320px) and (max-width: 767px) {
+    .footer__menu-item {
+      font-size: 24px;
+      line-height: 24px;  
+      
+    }
+}
