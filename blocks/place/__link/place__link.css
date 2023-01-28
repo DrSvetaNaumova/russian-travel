@@ -4,11 +4,9 @@
   font-size: 18px;
   line-height: 22px;
   text-decoration: underline;
-  color: #FFFFFF;
+  color: #fff;
 }
 
-@media screen and (min-width: 325px) and (max-width: 767px){
-  .place__link {
-    align-self: center;
-  }
+.place__link:hover {
+  opacity: .8;
 }
