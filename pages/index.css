@@ -8,7 +8,7 @@
 @import url("../blocks/header/__logo/header__logo.css");
 @import url("../blocks/header/__lang-selectors/header__lang-selectors.css");
 @import url("../blocks/header/__lang-link/header__lang-link.css");
-@import url("../blocks/header/__lang-link/_lang-link_key/header__lang-link_key_active.css");
+@import url("../blocks/header/__lang-link/_lang-link_active/header__lang-link_active.css");
 
 
 @import url("../blocks/lead/lead.css");
